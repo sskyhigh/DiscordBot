@@ -14,7 +14,7 @@ public class DiscordBot {
 
     public DiscordBot() throws LoginException {
         try {
-            String discordToken = "MTA0NDQ2MDcyMzMxMDQ0NDYyNA.G9-g4-.ul-mJSHRwTcSBMeCmmFGP8BVh3rczoJFJWYDMY";
+            String discordToken = "Hidden";
             DefaultShardManagerBuilder managerBuilder =
                     DefaultShardManagerBuilder.createDefault(discordToken);
             managerBuilder.setStatus(OnlineStatus.ONLINE);
